@@ -1,0 +1,88 @@
+iinfo:
+    title: Mkconlife's blog
+theme:
+    switch: true
+    default: style-light
+favicon:
+    #logo: /img/logo.png
+    visibilitychange: true
+    hidden: failure.ico
+    showText: 欢迎回来
+    hideText: 快回来QAQ
+user:
+    name: Mkconlife
+    email: 3297602270@qq.com
+    domain: https://mkconlife.github.io
+    avatar: /img/avatar.jpg
+    describe: 
+top_bars:
+    - title: home
+      url: /
+      children:
+    - title: archives
+      url: /archives/
+      noswup: true
+    - title: links
+      url: /links/
+      noswup: true
+sidebar:
+    social: 
+    typedText: ["a middle school student"]
+    info: # 个人信息
+        - key: 地址
+          val: 银河系
+        - key: 年龄
+          val: 16
+lazyload:
+    enable: true
+banner:
+    index:
+        type: img
+        bgrul: /img/wallpaper.jpg
+        bannerTitle: Welcome,<br>My friend!
+        bannerText: 我们沙沙作响的树叶用自己的声音来回答狂风暴雨。而沉默的你是谁？我不过是一朵小小的花。
+footer:
+  powered:
+    enable: true
+  beian:
+    enable: false
+    icp: 
+  copyrightYear:
+  live_time:
+    enable: true
+    prefix: footer.tips
+    start_time: 05/01/2023 9:32:16
+  custom_text:
+toc:
+    enable: true
+    list_number: true
+    max_depth: 3
+    min_depth: 1
+post_pagination:
+    enable: true
+    type: small 
+highlight:
+    theme: true
+    title: default
+    copy: true
+    lang: true
+    code_word_wrap: true
+    height_limit: 200 # 超出时，显示折叠按钮
+datetime_foramt:
+    post_card:
+        date: YY/MM/DD
+        time: HH:mm
+    post_info:
+        date: MM/DD
+        time: HH:mm
+    archive:
+        date: MM/DD
+        time: HH:mm
+rightside:
+    readmode: true
+    aside: true
+wordcount:
+  enable: true
+  count: true
+  time: true
+
